@@ -1,0 +1,1 @@
+x=x=>caches.open('c').then(x);self.oninstall=e=>e.waitUntil(x(c=>c.add('./')));self.onfetch=e=>e.respondWith(x(c=>c.match(e.request).then(m=>m)))
