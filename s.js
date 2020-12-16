@@ -1,1 +1,1 @@
-x=x=>caches.open('c').then(x);self.oninstall=e=>e.waitUntil(x(c=>c.add('./')));self.onfetch=e=>e.respondWith(x(c=>c.match(e.request).then(m=>m)))
+x=x=>caches.open(0).then(x);oninstall=e=>e.waitUntil(x(c=>c.add('.')));onfetch=e=>e.respondWith(x(c=>c.match(e.request).then(m=>m)))
